@@ -1,0 +1,11 @@
+.Inputfield.select-quickly .PageListActionSelect {
+  display: none !important; }
+.Inputfield.select-quickly .PageListActionQuickSelect.qs-disabled a {
+  background: #cacaca !important;
+  cursor: not-allowed; }
+.Inputfield.select-quickly .replacement-text {
+  display: none; }
+.Inputfield.select-quickly .PageListSelectActionToggleCancel .original-text {
+  display: none; }
+.Inputfield.select-quickly .PageListSelectActionToggleCancel .replacement-text {
+  display: inline; }
