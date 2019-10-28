@@ -9,7 +9,7 @@ class PageListSelectMultipleQuickly extends WireData implements Module {
 		return array(
 			'title' => 'Page List Select Multiple Quickly',
 			'summary' => 'Modifies PageListSelectMultiple to allow you to select multiple pages without the tree closing.',
-			'version' => '0.1.0',
+			'version' => '0.1.1',
 			'author' => 'Robin Sallis',
 			'href' => 'https://github.com/Toutouwai/PageListSelectMultipleQuickly',
 			'icon' => 'fast-forward',
