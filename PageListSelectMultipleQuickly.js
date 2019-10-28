@@ -63,7 +63,7 @@
 			});
 			if(!id) return;
 			// Get page title
-			var title = $list_item.find('.label_title').text();
+			var title = $list_item.find('.PageListPage').text();
 			// Get input element
 			var $input = $(this).closest('.Inputfield.select-quickly').find('input.InputfieldPageListSelectMultipleData');
 			// Update sortable list and input value
