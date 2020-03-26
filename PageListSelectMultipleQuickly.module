@@ -9,7 +9,7 @@ class PageListSelectMultipleQuickly extends WireData implements Module {
 		return array(
 			'title' => 'Page List Select Multiple Quickly',
 			'summary' => 'Modifies PageListSelectMultiple to allow you to select multiple pages without the tree closing.',
-			'version' => '0.1.1',
+			'version' => '0.1.2',
 			'author' => 'Robin Sallis',
 			'href' => 'https://github.com/Toutouwai/PageListSelectMultipleQuickly',
 			'icon' => 'fast-forward',
@@ -33,6 +33,8 @@ class PageListSelectMultipleQuickly extends WireData implements Module {
 	 * @param HookEvent $event
 	 */
 	protected function afterRenderReady(HookEvent $event) {
+		$inputfield = $event->object;
+		$inputfield->addClass('select-quickly', 'wrapClass');
 		$config = $this->wire('config');
 		$info = $this->getModuleInfo();
 		$version = $info['version'];
